@@ -23,7 +23,7 @@ const HomeScreen = ({ navigation }) => {
         <View style={styles.header}>
           <Text style={styles.dateText}>{formattedDate}</Text>
           <TouchableOpacity onPress={() => navigation.navigate('')} style={styles.addButton}>
-            <Ionicons name="add" size={24} color="#0066cc" />
+            <Ionicons name="notifications" size={24} color="#0066cc" />
           </TouchableOpacity>
         </View>
         <Text style={styles.greeting}>Hi, Username</Text>
